@@ -45,3 +45,6 @@ RequestHeader add X-Custom-Header-CipherSuites "\"%{SSLHAF_HANDSHAKE}e\" \
 \"%{SSLHAF_PROTOCOL}e\" \"%{SSLHAF_SUITES}e\" \"%{SSLHAF_COMPRESSION}e\" \
 \"%{SSLHAF_EXTENSIONS}e\" \"%{User-Agent}i\""
 ```
+
+## License
+[MIT License](https://opensource.org/licenses/MIT)
