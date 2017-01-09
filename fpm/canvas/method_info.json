@@ -1,0 +1,13 @@
+{
+  "id": "canvas",
+  "name": "HTML5 Canvas",
+  "order"  : 40,
+  "js": "runCanvasFingerprint()",
+  "scripts": [
+    "/js/canvasfp.js"
+  ],
+  "result_handler": "HtmlCanvasResultHandler",
+  "hashed_properties": {
+    "img" : "Image"
+  }
+}

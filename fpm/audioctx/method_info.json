@@ -1,0 +1,20 @@
+{
+  "id": "audioctx",
+  "name": "AudioContext",
+  "order": 60,
+  "js": "audioctx_fp()",
+  "scripts": [
+    "/js/audioctxfp.js",
+    "/js/sha1.js"
+  ],
+  "result_handler": "AudioContextResultHandler",
+  "properties": {
+    "dyn_compr_sum": "DynamicsCompressor (Sum of Buffer Values)",
+    "dyn_compr_hash": "DynamicsCompressor (Hash of Full Buffer)"
+  },
+  "hashed_properties": {
+    "ac_props" : "AudioContext Properties",
+    "oscillator" : "OscillatorNode Values",
+    "oscillator_dyn_compr" : "OscillatorNode / DynamicCompressor Values"
+  }
+}

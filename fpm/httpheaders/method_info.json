@@ -1,0 +1,7 @@
+{
+  "id": "http_headers",
+  "name": "HTTP Headers",
+  "order"  : 0,
+  "client_side": "False",
+  "result_handler": "HttpHeadersHandler"
+}

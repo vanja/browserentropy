@@ -1,0 +1,25 @@
+{
+  "id": "fonts",
+  "name": "Fonts",
+  "order"  : 30,
+  "template": "fonts.tpl",
+  "js": "detectFonts()",
+  "scripts": [
+    "/js/fontmetrics.js",
+    "/js/fontdetect.js",
+    "/js/fonts.js",
+	"/js/jquery.flash.js"
+  ],
+  "static": [
+    "/static/fonts.swf"
+  ],
+  "result_handler": "FontsResultHandler",
+  "properties": {
+    "checksum_system" : "Font-metric Checksum (No defense)",
+    "checksum_standard" : "Font-metric Checksum (Standard fonts only)",
+    "checksum_unifont" : "Font-metric Checksum (One standard font only)"
+  },
+  "hashed_properties" : {
+    "fonts" : "Detected Fonts"
+  }
+}

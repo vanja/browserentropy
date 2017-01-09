@@ -1,0 +1,16 @@
+{
+  "id": "cipher_suites",
+  "name": "SSL/TLS Cipher Suites",
+  "order"  : 10,
+  "client_side": "False",
+  "result_handler": "CipherSuitesResultHandler",
+  "properties" : {
+    "handshake_ver" : "Handshake Version",
+    "protocol_ver" : "Protocol Version",
+    "extensions" : "Extensions",
+    "compression" : "Compression"
+  },
+  "hashed_properties" : {
+    "cipher_suites": "Supported Cipher Suites"
+  }
+}

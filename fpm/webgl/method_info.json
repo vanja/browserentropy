@@ -1,0 +1,25 @@
+{
+  "id" : "webgl",
+  "name" : "WebGL",
+  "order"  : 50,
+  "js" : "runWebgl()",
+  "scripts" : [
+    "/js/webgl.js"
+  ],
+  "result_handler": "WebGLResultHandler",
+  "properties": {
+    "supported": "Supported",
+    "enabled": "Enabled",
+    "ctx_names": "Supported Context Names",
+    "ver": "Version",
+    "shader_ver": "Shading Language Version",
+    "vendor": "Vendor",
+    "renderer": "Renderer",
+    "vendor_real": "Unmasked Vendor",
+    "renderer_real": "Unmasked Renderer",
+    "max_anisotropy": "Max Anisotropy"
+  },
+  "hashed_properties": {
+    "extensions": "Supported Extensions"
+  }
+}

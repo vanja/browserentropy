@@ -1,0 +1,25 @@
+{
+  "id": "navigator",
+  "name": "Navigator",
+  "order"  : 20,
+  "js": "navfp()",
+  "scripts": [
+    "/js/advert.js",
+    "/js/fingerprint2.js",
+    "/js/navigator.js"
+  ],
+  "properties": {
+    "platform": "Platform",
+    "lang": "Language",
+    "video": "Screen Resolution",
+    "tz": "Timezone",
+    "dnt": "'Do Not Track' Flag",
+    "cookies": "Cookies enabled",
+    "adblock": "AdBlocker Installed",
+    "flash" : "Flash Installed"
+  },
+  "hashed_properties" : {
+    "plugins" : "Browser Plugins"
+  },
+  "result_handler": "PluginsResultHandler"
+}

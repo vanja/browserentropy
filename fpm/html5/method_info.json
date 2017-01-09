@@ -1,0 +1,10 @@
+{
+  "id": "html5",
+  "name": "HTML5/CSS3 Features",
+  "order"  : 100,
+  "js": "detectFeatures()",
+  "scripts": [
+	"/js/features.js"
+  ],
+  "result_handler": "HTML5ResultHandler"
+}
